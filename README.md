@@ -2,6 +2,7 @@
 ## Devlogs
 ### W1
 Write your W1 activity Devlog here.
+Hello world!”
 
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
