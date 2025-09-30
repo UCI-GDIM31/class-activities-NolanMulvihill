@@ -1,8 +1,7 @@
 # in-class-activities
 ## Devlogs
 ### W1
-Write your W1 activity Devlog here.
-Hello world!
+Pretend I wrote some beautiful metaphor describing Components, GameObjects, and Scenes here.
 
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
