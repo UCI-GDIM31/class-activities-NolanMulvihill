@@ -481,7 +481,7 @@ MonoBehaviour:
   ballRenderer: {fileID: 283257684}
   _rigidbody: {fileID: 283257681}
   _speedMultiplier: 2
-  _speedThreshold: 10
+  _speedThreshold: 1
 --- !u!212 &283257684
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1581,7 +1581,7 @@ MonoBehaviour:
   ballRenderer: {fileID: 1069684772}
   _rigidbody: {fileID: 1069684769}
   _speedMultiplier: 2
-  _speedThreshold: 10
+  _speedThreshold: 1
 --- !u!212 &1069684772
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2895,7 +2895,7 @@ MonoBehaviour:
   ballRenderer: {fileID: 2066541229}
   _rigidbody: {fileID: 2066541226}
   _speedMultiplier: 2
-  _speedThreshold: 10
+  _speedThreshold: 1
 --- !u!212 &2066541229
 SpriteRenderer:
   m_ObjectHideFlags: 0
