@@ -16,6 +16,14 @@ Assuming that the class contains the expected float for what time as a member va
 
 Classes are categories and components are the items of that cateogry. For eacample, a class would be food, and components would be hotdog, hambuger, pasta, etc
 
+### W4
+
+line 3: Created a private variable that stores a float to represent move speed
+
+line 22: Calculate the transaltion (how the objects moves along the z axis) and stores it in a variable to be used later. calucualtes using where it is on the horizontal axis, how fast the object moves and how much time has passed
+
+line 25: actually moves the object the calculated translation along the z axis
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
