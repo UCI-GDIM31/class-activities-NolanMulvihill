@@ -28,6 +28,10 @@ line 25: actually moves the object the calculated translation along the z axis
 Rigid body on cat and ball because those need to hit things
 goal has is trigger because it has something happen to it when something comes in contact with it
 
+### W5
+Question about which UPDATE gets called first
+Ordering of UPDATE() is random but they will all run in same frame so it doesnt make too big of a difference (very miniscule)
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
