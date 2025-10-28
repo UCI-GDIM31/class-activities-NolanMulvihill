@@ -1,3 +1,4 @@
+using System.Security.Cryptography;
 using UnityEngine;
 
 public class CatW5 : MonoBehaviour
@@ -6,7 +7,6 @@ public class CatW5 : MonoBehaviour
     [SerializeField] private float _moveSpeed = 1.0f;
     [SerializeField] private float _turnSpeed = 1.0f;
     [SerializeField] private Animator _animator;
-
     private string _isWalkingName = "IsWalking";
 
     private void Update()
@@ -42,10 +42,25 @@ public class CatW5 : MonoBehaviour
         //      them forwards.
         //
         // MULTIPLY one of your vectors with a certain value to do this. >:)
-
         Vector3 translation = Vector3.zero;
-        
+        if (_flipWSControls)
+        {
+           if (Input.GetKey(KeyCode.S))
+        {
+            translation = Vector3.forward;
+        } else if (Input.GetKey(KeyCode.W))
+        {
+            translation = Vector3.back;
+        }  
+        } else if (Input.GetKey(KeyCode.W))
+        {
+            translation = Vector3.forward;
+        } else if (Input.GetKey(KeyCode.S))
+        {
+            translation = Vector3.back;
+        }
 
+        gameObject.GetComponent<Transform>().Translate(translation * _moveSpeed * Time.deltaTime);
 
         // STEP 1 & 2 ---------------------------------------------------------
 
