@@ -32,6 +32,19 @@ goal has is trigger because it has something happen to it when something comes i
 Question about which UPDATE gets called first
 Ordering of UPDATE() is random but they will all run in same frame so it doesnt make too big of a difference (very miniscule)
 
+### W6
+[link to google doc](https://docs.google.com/document/d/1g257orHX8bQNaC57k1DMqCDIpAd95jDwpQPqJiA4ks8/edit?usp=sharing)
+i did other tools
+
+Member variables:
+- boolean for chasing
+- customizable speed
+- vector to track cat position
+Methods:
+- start for debugging
+- update to check for boolean and move accordingly
+- setters for chasing
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
