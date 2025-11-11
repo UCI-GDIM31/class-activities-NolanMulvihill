@@ -45,6 +45,12 @@ Methods:
 - update to check for boolean and move accordingly
 - setters for chasing
 
+### W7
+[link to google doc](https://docs.google.com/document/d/1G_ZSCA2-UVtHll1uaPGUIZ9OZg3-oBIxvR5bJl7Vl6k/edit?tab=t.0)
+environment
+
+it moved the position instead of rotating shouldnt have +='d a variable rather call the roatate function
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
